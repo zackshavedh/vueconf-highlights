@@ -2,7 +2,7 @@
 theme: ./theme
 clicks: 1
 altCover: true
-title: Vuetiful Theme
+title: VueConf Toronto 2023 Highlights
 ---
 
 # VueConf Toronto 2023 Highlights
@@ -73,12 +73,18 @@ title: Top Talks
 titleRow: true
 ---
 
-- Vite & Vue Updates from Evan You
-- Pinia DisasterClass
-- Vue To The Edge
-- Scalable Architectures with Vue Micro Frontends: A Developer-Centric Approach
-- Conquering Forms In Vue
-- Common Mistakes in Vue.js and How to Avoid Them
+# Top Talks
+
+- Evan You: Vite & Vue Updates
+- Eduardo San Martin Morote: Pinia DisasterClass
+- Adam DeHaven: Scalable Architectures with Vue Micro Frontends: A Developer-Centric Approach
+- Daniel Kelly: Common Mistakes in Vue.js and How to Avoid Them
+
+---
+layout: section
+---
+
+# Vite & Vue Updates from Evan You
 
 ---
 layout: quote
@@ -136,6 +142,24 @@ layout: default
 <img src="theme/assets/slides/evan-you-slide-8.png" />
 
 ---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-9.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-10.png" />
+
+---
+layout: section
+---
+
+# Pinia DisasterClass
+
+---
 layout: quote
 author: Eduardo San Martin Morote (2023)
 ---
@@ -167,19 +191,106 @@ layout: default
 <img src="theme/assets/slides/pinia-slide-4.png" />
 
 ---
-layout: video
-video: https://player.vimeo.com/video/455611549
+layout: section
 ---
 
-# You can include Video!
+# Scalable Architectures with Vue Micro Frontends: A Developer-Centric Approach
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/microfrontends-slide-1.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/microfrontends-slide-2.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/microfrontends-slide-3.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/microfrontends-slide-4.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/microfrontends-slide-5.png" />
+
+---
+layout: section
+---
+
+# Common Mistakes in Vue.js and How to Avoid Them
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/mistakes-slide-1.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/mistakes-slide-2.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/mistakes-slide-3.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/mistakes-slide-4.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/mistakes-slide-5.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/mistakes-slide-6.png" />
+
+---
+layout: section
+---
+
+# Honorable Mentions
+
+---
+layout: big-points
+title: Top Talks
+titleRow: true
+---
+
+# Honorable Mentions
+
+- Sebastien Chopin: Vue to the Edge
+- Justin Schroeder: Conquering forms in Vue
+- Alexander Lichter: The Vue-niverse of SEO: Uncovering the Secret
+- Maria Lamardo: Prevent, Catch and Fix Accessibility Issues
 
 ---
 layout: outro 
 title: Outro
-twitter: '@Linus_Borg'
-website: 'https://www.linusb.org'
-repository: 'github.com/linusborg/slidev-theme-vuetiful'
-hostedSlides: 'https://slidev-theme-vuetiful.netlify.app/'
+repository: 'https://github.com/zackshavedh/vueconf-2023-highlights'
 ---
 
 <div class="absolute left-12 top-[200px] right-12 text-center text-light-600">

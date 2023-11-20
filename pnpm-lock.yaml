@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@slidev/cli':
     specifier: ^0.44.0
-    version: 0.44.0(@types/markdown-it@13.0.6)(postcss@8.4.31)
+    version: 0.44.0(@types/markdown-it@13.0.6)(playwright-chromium@1.40.0)(postcss@8.4.31)
   '@slidev/theme-default':
     specifier: latest
     version: 0.21.2
@@ -25,6 +25,9 @@ devDependencies:
   '@iconify-json/uim':
     specifier: ^1.1.6
     version: 1.1.6
+  playwright-chromium:
+    specifier: ^1.40.0
+    version: 1.40.0
 
 packages:
 
@@ -778,7 +781,7 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /@slidev/cli@0.44.0(@types/markdown-it@13.0.6)(postcss@8.4.31):
+  /@slidev/cli@0.44.0(@types/markdown-it@13.0.6)(playwright-chromium@1.40.0)(postcss@8.4.31):
     resolution: {integrity: sha512-c+wgDo634nopJyB5kCgVNgIs/WH2B4rRJZTiKO1X59uF9xPVrLMgKa6I91jad7eBDGUr6Di/3BkUfbxfu2zjrw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -827,6 +830,7 @@ packages:
       open: 9.1.0
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
+      playwright-chromium: 1.40.0
       postcss-nested: 6.0.1(postcss@8.4.31)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -3868,6 +3872,19 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: false
 
+  /playwright-chromium@1.40.0:
+    resolution: {integrity: sha512-LEObqtviC8ik5QM9dHcx3YYGxTl2bBrUnePHibHX/a7KVbkvt1P13b9oYHylytKBh8C84pg+D3yfs/t5MgGDpg==}
+    engines: {node: '>=16'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.40.0
+
+  /playwright-core@1.40.0:
+    resolution: {integrity: sha512-fvKewVJpGeca8t0ipM56jkVSU6Eo0RmFvQ/MaCQNDYm+sdvKkMBBWTE1FdeMqIdumRaXXjZChWHvIzCGM/tA/Q==}
+    engines: {node: '>=16'}
+    hasBin: true
+
   /popmotion@11.0.5:
     resolution: {integrity: sha512-la8gPM1WYeFznb/JqF4GiTkRRPZsfaj2+kCxqQgr2MJylMmIKUwBfWW8Wa5fml/8gmtlD5yI01MP1QCZPWmppA==}
     dependencies:
@@ -4146,7 +4163,7 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@slidev/cli': 0.44.0(@types/markdown-it@13.0.6)(postcss@8.4.31)
+      '@slidev/cli': 0.44.0(@types/markdown-it@13.0.6)(playwright-chromium@1.40.0)(postcss@8.4.31)
       lodash-es: 4.17.21
       vue: 3.3.8
     dev: false
