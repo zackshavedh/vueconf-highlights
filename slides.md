@@ -5,69 +5,166 @@ altCover: true
 title: Vuetiful Theme
 ---
 
-# Vuetiful Theme
-
-A Vue-inspired theme for my talks about Vue
-
-
----
-
-# This is the default page
-
-it can have a heading, and then you add whatever content your want beneath that.
-
-It can also have two columns, we demo that later in these slides.
-
-* Classic item lists look like this.
-* We have a slide variant with bigger list points to stress them, see later.
+# VueConf Toronto 2023 Highlights
 
 ---
 layout: section
 ---
 
-# This is a section
+# Day 1: Advanced Patterns for Simplifying Components Workshop
 
 ---
-layout: quote
-author: Linus Borg (2021)
+layout: default
 ---
 
-# Big quotes make your talk look fancy
+<img src="theme/assets/slides/workshop-slide-1.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-2.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-3.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-4.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-5.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-6.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-7.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/workshop-slide-8.png" />
+
+---
+layout: section
+---
+
+# Day 2: The Main Event
 
 ---
 layout: big-points
-title: Need to make a few big points?
+title: Top Talks
 titleRow: true
 ---
 
-- Increased font size... <Badge type="warn">Test</Badge>
-- ...and centered content
-- help stressing a few points
+- Vite & Vue Updates from Evan You
+- Pinia DisasterClass
+- Vue To The Edge
+- Scalable Architectures with Vue Micro Frontends: A Developer-Centric Approach
+- Conquering Forms In Vue
+- Common Mistakes in Vue.js and How to Avoid Them
 
 ---
+layout: quote
+author: Evan You (2023)
+---
 
-# Code
+# We made some mistakes...
 
-Use code snippets and get the highlighting directly!
+---
+layout: default
+---
 
-```html
-<template>
-  <h1>Hello World"</h1>
-  <div class="message">{{ message }}</div>
-</template>
-<script>
-  export default {
-    data:() => ({
-      message: 'Great to be here!',
-    })
-  }
-</script>
-<style scoped>
-  .message {
-    color: red;
-  }
-</style>
-```
+<img src="theme/assets/slides/evan-you-slide-1.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-2.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-3.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-4.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-5.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-6.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-7.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/evan-you-slide-8.png" />
+
+---
+layout: quote
+author: Eduardo San Martin Morote (2023)
+---
+
+# We often see Pinia or stores as the place to store global state but I think that's not only limiting what a store can do but also can lead us down the wrong path.
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/pinia-slide-1.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/pinia-slide-2.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/pinia-slide-3.png" />
+
+---
+layout: default
+---
+
+<img src="theme/assets/slides/pinia-slide-4.png" />
 
 ---
 layout: video
@@ -75,53 +172,6 @@ video: https://player.vimeo.com/video/455611549
 ---
 
 # You can include Video!
-
----
-layout: sfc
-example: simple
----
-
-# Firing up a Vue SFC playground
-
----
-title: Default Slide can show flexible grids
-titleRow: true
-cols: '2-1'
----
-
-```html
-<template>
-  <h1>Hello World"</h1>
-  <div class="message">{{ message }}</div>
-</template>
-<script>
-  export default {
-    data:() => ({
-      message: 'Great to be here!',
-    })
-  }
-</script>
-<style scoped>
-  .message {
-    color: red;
-  }
-</style>
-```
-
-::right::
-
-## Features
-
-* Flexible column width via windicss
-* Here, more weight on the left
-* Leaves room for short notes
-
----
-layout: full-image
-image: canyon.jpeg
----
-
-# You can use a full-screen image without the default decoration
 
 ---
 layout: outro 

@@ -26,7 +26,7 @@ defineProps({
       >
         <div
           v-if="$slidev.nav.clicks === 1"
-          class="bg-[#2c3f4e] py-12 border-t-4 border-b-4 border-vgreen text-center shadow-lg shadow-light-300/50 shadow-gray-300/50"
+          class="bg-[#2c3f4e] pt-12 pb-4 border-t-4 border-b-4 border-vgreen text-center shadow-lg shadow-light-300/50 shadow-gray-300/50"
         >
           <slot />
         </div>
@@ -50,6 +50,7 @@ defineProps({
   background-size: cover;
   background-position: center center;
 }
+
 ::v-deep(h1) {
   @apply !text-5xl;
 }
