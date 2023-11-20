@@ -4,6 +4,8 @@ To start the slide show:
 - `npm run dev`
 - visit http://localhost:3030
 
+[Slideshow export](https://drive.google.com/file/d/1X8dO3R3lta9Z20l54Zm37pUr9vUTekdm/view?usp=sharing)
+
 Slide Links:
 
 - [Evan You: Vue & Vite Updates](https://docs.google.com/presentation/d/1IzzwGg8yjf-0fU9gqs51WhT2Kopb3amH8he0iEhvEiY/mobilepresent?slide=id.p)
