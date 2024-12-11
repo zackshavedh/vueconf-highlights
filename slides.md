@@ -179,7 +179,7 @@ backgroundSize: 50%
 # Oxc
 
 - Found limitations in other libraries while working on Rolldown, so ...
-- Working on Oxc! Combined parser, linter, formatter, transformer, minifier resolver, all written in Rust.
+- Working on Oxc! Combined parser, linter, formatter, transformer, minifier, resolver, all written in Rust.
 - Founded Void(0), 4.6M in funding
 - Building complete unified toolchain
 - https://oxc.rs/
