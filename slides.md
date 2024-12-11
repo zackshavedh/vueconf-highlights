@@ -34,11 +34,13 @@ image: theme/assets/slides/reactivity.png
 backgroundSize: 75%
 ---
 
-<div class="pt-35">
+<div class="pt-25">
 <h1>Reactivity</h1>
 
 - UI components automatically update when data changes
 - Core primitives: Dependencies & Effects
+  - Dependencies are data that is tracked
+  - Effects execute code when dependencies change
 
 </div>
 
