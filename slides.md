@@ -124,6 +124,18 @@ createBlock("div", null, [
 layout: default
 ---
 
+<image src="theme/assets/slides/vdom.png" >
+
+---
+layout: default
+---
+
+<image src="theme/assets/slides/system-diagram.png" >
+
+---
+layout: default
+---
+
 # Vapor Mode
 
 ## Current Implementation
