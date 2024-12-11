@@ -2,271 +2,123 @@
 theme: ./theme
 clicks: 1
 altCover: true
-title: VueConf Toronto 2023 Highlights
+title: VueConf Toronto 2024 Highlights
 ---
 
-# VueConf Toronto 2023 Highlights
-
----
-layout: section
----
-
-# Day 1: Advanced Patterns for Simplifying Components Workshop
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-1.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-2.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-3.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-4.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-5.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-6.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-7.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/workshop-slide-8.png" />
+# VueConf Toronto 2024 Highlights
 
 ---
 layout: section
 ---
 
-# Day 2: The Main Event
+# Understanding Vue From The Bottom Up Workshop
 
 ---
-layout: big-points
-title: Top Talks
-titleRow: true
+layout: image-right
+image: theme/assets/slides/key-concepts.png
+backgroundSize: 75%
 ---
 
-# Top Talks
+<div class="pt-35">
+<h1>Key Concepts</h1>
 
-- Evan You: Vite & Vue Updates
-- Eduardo San Martin Morote: Pinia DisasterClass
-- Adam DeHaven: Scalable Architectures with Vue Micro Frontends: A Developer-Centric Approach
-- Daniel Kelly: Common Mistakes in Vue.js and How to Avoid Them
+- Reactivity
+- Compiling
+- Rendering
 
----
-layout: section
----
-
-# Vite & Vue Updates from Evan You
+</div>
 
 ---
-layout: quote
-author: Evan You (2023)
+layout: image-right
+image: theme/assets/slides/reactivity.png
+backgroundSize: 75%
 ---
 
-# We made some mistakes...
+<div class="pt-35">
+<h1>Reactivity</h1>
+
+- UI components automatically update when data changes
+- Core primitives: Dependencies & Effects
+
+</div>
 
 ---
-layout: default
+layout: image-right
+image: theme/assets/slides/ref.png
+backgroundSize: 100%
 ---
 
-<img src="theme/assets/slides/evan-you-slide-1.png" />
+<div class="pt-40">
 
----
-layout: default
----
+- In JavaScript, we can intercept property read/write via getter/setters
+- We track active effects on `get`
+- We trigger updates on `set`
 
-<img src="theme/assets/slides/evan-you-slide-2.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/evan-you-slide-3.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/evan-you-slide-4.png" />
+</div>
 
 ---
 layout: default
 ---
 
-<img src="theme/assets/slides/evan-you-slide-5.png" />
+<img src="theme/assets/slides/reactive.png" />
+
+---
+layout: image-right
+image: theme/assets/slides/compiler.png
+backgroundSize: 75%
+---
+
+<div class="pt-15">
+
+<h1>Compiler</h1>
+
+- Abstract Syntax Tree (AST)
+  - Created during template parsing
+  - A tree representation of source code syntax
+  - Represents template structure and expressions
+- Intermediate Representation (IR)
+  - Step between AST and final compiled code
+  - Used by the compiler to apply optimizations
+  - Output is passed to render function
+  
+</div>
 
 ---
 layout: default
 ---
 
-<img src="theme/assets/slides/evan-you-slide-6.png" />
+<img src="theme/assets/slides/compiler-order.png" />
 
 ---
-layout: default
+layout: image-right
+image: theme/assets/slides/runtime.png
+backgroundSize: 75%
 ---
 
-<img src="theme/assets/slides/evan-you-slide-7.png" />
+<div class="pt-5">
 
----
-layout: default
----
+<h1>Rendering</h1>
 
-<img src="theme/assets/slides/evan-you-slide-8.png" />
+- Vue uses a "Compiler Informed" virtual DOM  
+- PatchFlag & Block Tree Optimizations
 
----
-layout: default
----
+```js
+// Template
+<div>
+  <h1>Static</h1>
+  <div>{{ dynamic }}</div>
+</div>
 
-<img src="theme/assets/slides/evan-you-slide-9.png" />
+// Compiles to something like
+createBlock("div", null, [
+  // Static content - not tracked for updates
+  createVNode("h1", null, "Static"),
+  // Dynamic content - tracked in dynamicChildren
+  createVNode("div", null, dynamic, PatchFlags.TEXT)
+])
+```
 
----
-layout: default
----
-
-<img src="theme/assets/slides/evan-you-slide-10.png" />
-
----
-layout: section
----
-
-# Pinia DisasterClass
-
----
-layout: quote
-author: Eduardo San Martin Morote (2023)
----
-
-# We often see Pinia or stores as the place to store global state but I think that's not only limiting what a store can do but also can lead us down the wrong path.
-
----
-layout: default
----
-
-<img src="theme/assets/slides/pinia-slide-1.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/pinia-slide-2.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/pinia-slide-3.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/pinia-slide-4.png" />
-
----
-layout: section
----
-
-# Scalable Architectures with Vue Micro Frontends: A Developer-Centric Approach
-
----
-layout: default
----
-
-<img src="theme/assets/slides/microfrontends-slide-1.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/microfrontends-slide-2.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/microfrontends-slide-3.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/microfrontends-slide-4.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/microfrontends-slide-5.png" />
-
----
-layout: section
----
-
-# Common Mistakes in Vue.js and How to Avoid Them
-
----
-layout: default
----
-
-<img src="theme/assets/slides/mistakes-slide-1.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/mistakes-slide-2.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/mistakes-slide-3.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/mistakes-slide-4.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/mistakes-slide-5.png" />
-
----
-layout: default
----
-
-<img src="theme/assets/slides/mistakes-slide-6.png" />
+</div>
 
 ---
 layout: default

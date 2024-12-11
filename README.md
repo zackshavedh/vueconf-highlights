@@ -1,7 +1,7 @@
 To start the slide show:
 
-- `npm install`
-- `npm run dev`
+- `pnpm install`
+- `pnpm dev`
 - visit http://localhost:3030
 
 [Slideshow export](https://drive.google.com/file/d/1X8dO3R3lta9Z20l54Zm37pUr9vUTekdm/view?usp=sharing)
