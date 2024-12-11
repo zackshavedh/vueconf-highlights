@@ -124,13 +124,14 @@ createBlock("div", null, [
 layout: default
 ---
 
-<image src="theme/assets/slides/vdom.png" >
+<img src="theme/assets/slides/v-dom.png" />
 
 ---
-layout: default
+layout: section
 ---
 
-<image src="theme/assets/slides/system-diagram.png" >
+# Conference Talks
+
 
 ---
 layout: default
@@ -224,25 +225,6 @@ backgroundSize: 75%
 - Could still do the same thing with zod, zod-openapi and zod-mock
 
 ---
-layout: section
----
-
-# Honorable Mentions
-
----
-layout: big-points
-title: Top Talks
-titleRow: true
----
-
-# Honorable Mentions
-
-- Sebastien Chopin: Vue to the Edge
-- Justin Schroeder: Conquering forms in Vue
-- Alexander Lichter: The Vue-niverse of SEO: Uncovering the Secret
-- Maria Lamardo: Prevent, Catch and Fix Accessibility Issues
-
----
 layout: outro
 title: Outro
 repository: 'https://github.com/zackshavedh/vueconf-2023-highlights'
@@ -250,5 +232,4 @@ repository: 'https://github.com/zackshavedh/vueconf-2023-highlights'
 
 <div class="absolute left-12 top-[200px] right-12 text-center text-light-600">
   <p class="text-4xl !leading-[1.5em]">Thank you for listening!</p>
-  <!-- <p class="text-4xl !leading-[1.5em]">Questions?</p> -->
 </div>
