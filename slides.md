@@ -82,7 +82,7 @@ backgroundSize: 75%
   - Step between AST and final compiled code
   - Used by the compiler to apply optimizations
   - Output is passed to render function
-  
+
 </div>
 
 ---
@@ -101,7 +101,7 @@ backgroundSize: 75%
 
 <h1>Rendering</h1>
 
-- Vue uses a "Compiler Informed" virtual DOM  
+- Vue uses a "Compiler Informed" virtual DOM
 - PatchFlag & Block Tree Optimizations
 
 ```js
@@ -144,12 +144,13 @@ layout: default
 ## Current Implementation
 
 - Uses a VDOM, creating a VNode for each dom element
-- When a component updates, it goes through its VNodes and updates the dom elements
+- Patch Flags to give hints about how to smartly update the DOM
 
 ## Vapor Implementation
 
-- Group static markup into one VNode
-- Patch Flags: Re-render updated areas of component instead of whole component
+- Works directly with DOM (no VDOM)
+- Can reuse VNode if its the same markup (template)
+- Can make fine grain updates to DOM
 
 ## When?
 
