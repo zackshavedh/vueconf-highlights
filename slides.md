@@ -233,3 +233,18 @@ repository: 'https://github.com/zackshavedh/vueconf-2023-highlights'
 <div class="absolute left-12 top-[200px] right-12 text-center text-light-600">
   <p class="text-4xl !leading-[1.5em]">Thank you for listening!</p>
 </div>
+
+---
+layout: default
+---
+
+# Slides
+
+- [Keynote With Evan You](https://docs.google.com/presentation/d/1rL2C-ZwnKrEXLkGAR1vk5YZumMSIAyNn4TE0KeR_M0M/edit)
+- Understanding Vue From The Bottom Up Workshop
+  - [Slides](https://docs.google.com/presentation/d/1O_8W3uvhiu_AOptRiYj2hxITm-VPwJppWV00Y8lq_IA/edit#slide=id.g207b4d8f370_0_35)
+  - [Gist](https://gist.github.com/yyx990803/338adf5cd09444653212ef4f5f798836)
+- [Considering Performance, and why we switched to composition](https://docs.google.com/presentation/d/1nkFyK0WwINn1W__uLjV1947iZtCK-aMxFydc17g2Mhg/edit?usp=sharing)
+- [Async State Management In Vue Router](https://github.com/posva/talk-data-loaders)
+- [Contract Testing in Vue](https://talk-contract-testing-nuxt.netlify.app/1)
+- [Can Nuxt Make Great Mobile Apps?](https://lihbr.com/talks/vuetoronto/nuxt-mobile-apps)
